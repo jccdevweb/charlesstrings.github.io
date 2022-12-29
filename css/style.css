@@ -63,9 +63,6 @@
 .nav-link:hover{
     color: var(--green);
 }
-.nav-active .nav-link{
-    color: var(--green);
-}
 
 /*** show nav class ***/
 .showNav{
@@ -149,6 +146,9 @@
 /* #### ABOUT PAGE #### */
 .about{
     padding: 5rem 0 2.5rem 0;
+}
+.about-img{
+    width:120%;
 }
 .about .row-right{
     padding: 3rem 0;
@@ -426,6 +426,9 @@
 .projects .item:hover .item-overlay{
     opacity: 0.9;
 }
+.projects .item .item-overlay button{
+
+}
 
 /* #### BLOG PAGE #### */
 .blog{
@@ -665,14 +668,25 @@
         width: 325px;
         height: 325px;
     }
+    /* about section */
+    .about .row-left{
+        width: 65%;
+        height: 100%;
+        margin: 1rem auto;
+        overflow: hidden;
+        border-radius: 50%;
+        position: relative;
+    }
+    /* footer */
     .footer-about-content{
         padding:0;
     }
 
 
+
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 761px){
     /* footer */
     .footer .row{
         display: flex;
@@ -745,6 +759,22 @@
         margin: 0;
     }
 }
+.home .img-container{
+    width: 50%;
+    height: auto;
+    border-radius: unset;
+}
+.home .img-border{
+    height: 100%;
+    width: auto;
+    transition: var(--transition);
+    border-radius: unset;
+    background: transparent;
+}
+.home .img-border:hover{
+    transform: translateY(-14px);
+}
+
 
 @media screen and (min-width: 992px){
     /* navbar section */

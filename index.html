@@ -10,9 +10,17 @@
     <link rel="stylesheet" href="css/utility.css">
     <!-- style css file -->
     <link rel = "stylesheet" href = "css/style.css">
-    <!-- fontawesome cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-    <!-- google fonts -->
+    <!-- modal project css file -->
+    <link rel = "stylesheet" href = "css/modal.css">
+    <!-- fontawesome cdn skills -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   </head>
   <body>
@@ -31,26 +39,26 @@
 
         <div class = "navbar-collapse">
           <ul class = "navbar-nav">
-            <li class = "nav-item nav-active">
-              <a href = "index.html" class = "nav-link">home</a>
+            <li class = "nav-item">
+              <a href = "#home-section" class = "nav-link">home</a>
             </li>
             <li class = "nav-item">
-              <a href = "about.html" class = "nav-link">about</a>
+              <a href = "#about-section" class = "nav-link">about</a>
             </li>
             <li class = "nav-item">
-              <a href = "resume.html" class = "nav-link">resume</a>
+              <a href = "#resume-section" class = "nav-link">resume</a>
             </li>
             <li class = "nav-item">
-              <a href = "services.html" class = "nav-link">services</a>
+              <a href = "#services-section" class = "nav-link">services</a>
             </li>
             <li class = "nav-item">
-              <a href = "skills.html" class = "nav-link">skills</a>
+              <a href = "#skills-section" class = "nav-link">skills</a>
             </li>
             <li class = "nav-item">
-              <a href = "projects.html" class = "nav-link">projects</a>
+              <a href = "#project-section" class = "nav-link">projects</a>
             </li>
             <li class = "nav-item">
-              <a href = "contact.html" class = "nav-link">contact</a>
+              <a href = "#contact-section" class = "nav-link">contact</a>
             </li>
           </ul>
         </div>
@@ -61,15 +69,15 @@
 
 
     <!-- home page -->
-    <section class = "home container">
+    <section id = "home-section" class = "home container">
       <div class = "row">
         <div class = "row-left">
           <h3>hello!</h3>
           <h1>i'm <span> Joseph charles </span></h1>
           <h2>a Full Stack Developer</h2>
           <div class = "home-pg-btn">
-            <button type = "button" class = "btn"><a href = "contact.html" class = "nav-link">hire me</a></button>
-            <button type = "button" class = "btn"> <a href = "projects.html" class = "nav-link">my works</a></button>
+            <button type = "button" class = "btn"><a href = "#contact-section" class = "nav-link">hire me</a></button>
+            <button type = "button" class = "btn"> <a href = "#project-section" class = "nav-link">my works</a></button>
           </div>
         </div>
 
@@ -83,7 +91,376 @@
       </div>
     </section>
     <!-- end of home page -->
+
+
     
+    <!-- about page -->
+    <section id = "about-section" class = "about container">
+      <div class = "title">
+        <h2>about</h2>
+        <div>
+          <h2>about me</h2>
+        </div>
+      </div>
+
+      <div class = "row">
+        <div class = "row-left">
+          <img class = "about-img" src = "assets/about-photo.jpg" alt = "about photo">
+        </div>
+
+        <div class = "row-right">
+          <p class = "text">I am creative and highly motivated Full Stack Web Developer / Server Administrator seeking a position that will utilize my experience and skills as well as offer me the opportunity for advancement. <br/>My core competence lies in complete end to end management of a new software development project, and I am seeking opportunities to build websites or softwares from the ground up for you or your business.<div class = "about-content">
+            <ul>
+              <li class = "text">
+                <span>Name: </span>
+                <span>Joseph charles Vargas</span>
+              </li>
+              <li class = "text">
+                <span>Date of Birth: </span>
+                <span>June 02, 1993</span>
+              </li>
+              <li class = "text">
+                <span>Residence: </span>
+                <span>PH</span>
+              </li>
+              <li class = "text">
+                <span>Address: </span>
+                <span>Metro Manila, Quezon City</span>
+              </li>
+              <li class = "text">
+                <span>Email: </span>
+                <span>jcc.devweb@gmail.com</span>
+              </li>
+              <li class = "text">
+                <span>Phone: </span>
+                <span>+639 1937 11606</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of about page -->
+
+    
+    <!-- resume page -->
+    <section id="resume-section" class = "resume container">
+      <div class = "title">
+        <h2>resume</h2>
+        <div>
+          <h2>resume</h2>
+        </div>
+      </div>
+
+     
+      <div class = "row">
+        <div class = "even-col">
+          <div class = "row-left">
+            <h1>Experience</h1>
+          </div> 
+          <div class = "item">
+            <div class = "icon">
+              <i class = "fas fa-briefcase"></i>
+            </div>
+            <span>Dec 2019 - June 2020</span>
+            <h2>Full Stack Developer - <span>GiraffeBuilder</span></h2>
+            <p class = "text">GiraffeBuilder provides award-winning local social media marketing, custom content creation and curation for professionals.</p>
+          </div>
+
+          <div class = "item">
+            <div class = "icon">
+              <i class = "fas fa-briefcase"></i>
+            </div>
+            <span>Sept 2018 - Sept 2019</span>
+            <h2>Dev Ops / Web Developer - <span>eMarketing Concepts</span></h2>
+            <p class = "text">A powerful digital software and marketing services designed to drive sales. helped countless brands reach client goals. Have the proven digital marketing solutions that create explosive business success.</p>
+          </div>
+
+          <div class = "item">
+            <div class = "icon">
+              <i class = "fas fa-briefcase"></i>
+            </div>
+            <span>Jan 2017 - Sept 2018</span>
+            <h2>Server Support Specialist - <span>GoDaddy</span></h2>
+            <p class = "text">Is a very popular web host and domain registrar. They spend a lot of money on advertising, including during the Superbowl, the pinnacle of exposure when it comes to ads. </p>
+          </div>
+         </div>
+              <div class = "even-col">
+                <div class = "row-left">
+                  <h1>Education</h1>
+                </div> 
+                <div class = "item">
+                  <div class = "icon">
+                    <i class = "fas fa-graduation-cap"></i>
+                  </div>
+                   <span>Jan 2015 </span>
+                    <h2>Bachelor of Science in Computer Science - <span>Access Computer College</span></h2>
+                    <p class = "text">Fundamentals of Front-End and Back-End development</p>
+                </div>
+                </div>
+      </div>
+    </section>
+    <!-- end of resume page -->
+    
+
+
+    <!-- services page -->
+    <section id = "services-section" class = "services container">
+      <div class = "title">
+        <h2>services</h2>
+        <div>
+          <h2>services</h2>
+        </div>
+      </div>
+
+      
+      <div class = "row">
+        <div class = "item">
+          <span><i class = "fab fa-sketch"></i></span>
+          <h2>web design</h2>
+        </div>
+
+        <div class = "item">
+          <span><i class = "fas fa-camera-retro"></i></span>
+          <h2>photography</h2>
+        </div>
+
+        <div class = "item">
+          <span><i class = "fas fa-code"></i></span>
+          <h2>web developer</h2>
+        </div>
+
+        <div class = "item">
+          <span><i class = "fas fa-flask"></i></span>
+          <h2>branding</h2>
+        </div>
+
+        <div class = "item">
+          <span><i class = "fab fa-app-store"></i></span>
+          <h2>app developing</h2>
+        </div>
+
+        <div class = "item">
+          <span><i class = "fas fa-box-open"></i></span>
+          <h2>product strategy</h2>
+        </div>
+      </div>
+
+
+    </section>
+    <!-- end of services page -->
+
+ <!-- skills page -->
+ <section id = "skills-section" class="skills container">
+  <div class="title">
+    <h2>skills</h2>
+    <div>
+      <h2>my skills</h2>
+    </div>
+  </div>
+
+  <div class = "row">
+    <div class = "row-left">
+      <div class = "item-header">
+        <h1>Front-End<span> Skills</span></h1>
+      </div>
+      <div class = "item">
+        <span><i class="fa-brands fa-html5"></i></span>
+        <h2>HTML5</h2>
+      </div>
+
+      <div class = "item">
+        <span><i class="fa-brands fa-css3-alt"></i></span>
+        <h2>CSS3</h2>
+      </div>
+
+      <div class = "item">
+        <span><i class="fa-brands fa-js"></i></span>
+        <h2>JS</h2>
+      </div>
+      <div class = "item">
+        <span><i class="fa-brands fa-react"></i></span>
+        <h2>ReactJS</h2>
+      </div>
+    </div>
+  <div class = "row-right">
+    <div class = "item-header">
+      <h1>Back-End <span>Skills</span></h1>
+    </div>
+    
+    <div class = "item">
+      <span><i class="fa-brands fa-php"></i></span>
+      <h2>PHP</h2>
+    </div>
+
+    <div class = "item">
+      <span><i class = "fab fa-sketch"></i></span>
+      <h2>MySQL</h2>
+    </div>
+
+    <div class = "item">
+      <span><i class="fa-solid fa-diamond"></i></span>
+      <h2>NodeJS</h2>
+    </div>
+    </div>
+  </div>
+</section>
+<!-- end of skills page -->
+
+    <!-- start of project page -->
+    <section id="project-section" class = "projects container">
+      <div class = "title">
+        <h2>projects</h2>
+        <div>
+          <h2>My Projects</h2>
+        </div>
+      </div>
+
+    
+      <div class = "row">
+        <div class = "item">
+          <div class = "item-overlay">
+            <div>
+            <a href = "#">branding & illustration design</a>
+            <h3>web design</h3>
+            <button class="btn" data-target="#modal1">View More</button>
+          </div>
+          </div>
+        </div>
+
+        <div class = "item">
+          <div class = "item-overlay">
+            <div>
+            <a href = "#">branding & illustration design</a>
+            <h3>web design</h3>
+            <button class="btn" data-target="#modal2">View More</button>
+            </div>
+          </div>
+        </div>
+
+        <div class = "item">
+          <div class = "item-overlay">
+            <div>
+            <a href = "#">branding & illustration design</a>
+            <h3>web design</h3>
+          </div>
+          </div>
+        </div>
+
+        <div class = "item">
+          <div class = "item-overlay">
+            <a href = "#">branding & illustration design</a>
+            <h3>web design</h3>
+          </div>
+        </div>
+
+        <div class = "item">
+          <div class = "item-overlay">
+            <a href = "#">branding & illustration design</a>
+            <h3>web design</h3>
+          </div>
+        </div>
+
+        <div class = "item btn" data-target="#modal1" >
+          <div class = "item-overlay">
+            <a href = "#">branding & illustration design</a>
+            <h3>web design</h3>
+          </div>
+        </div>
+      </div>
+      
+    <!-- Modal -->
+
+    <div class="container">
+      <button class="btn" data-target="#modal1">Open Modal</button>
+      <button class="btn" data-target="#modal2">Open Modal 2</button>
+      <br />
+  
+    </div>
+
+    <div class="modal" id="modal1">
+      <div class="header">
+        <div class="title">First Modal</div>
+        <button class="btn close-modal">&times;</button>
+      </div>
+      <div class="body">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere ea
+        officia consectetur. Laborum, dolor? Assumenda quo corrupti eveniet
+        velit fugit fugiat odit, dolorum labore obcaecati quia. Commodi
+        assumenda sed maxime!
+      </div>
+    </div>
+    <div class="modal" id="modal2">
+      <div class="header">
+        <div class="title">Second Modal</div>
+        <button class="btn close-modal">&times;</button>
+      </div>
+      <div class="body">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere ea
+        officia consectetur. Laborum, dolor? Assumenda quo corrupti eveniet
+        velit fugit fugiat odit, dolorum labore obcaecati quia. Commodi
+        assumenda sed maxime!
+      </div>
+    </div>
+
+    <div id="overlay"></div>
+
+    <!-- end modal -->
+    </section>
+
+ <!-- contact page -->
+ <section id = "contact-section" class = "contact container">
+  <div class = "title">
+    <h2>contact</h2>
+    <div>
+      <h2>get in touch</h2>
+    </div>
+  </div>
+
+  
+  <div class = "row">
+    <div class = "col-left">
+      <h2>feel free to ask us!</h2>
+     
+      <div class = "contact-info">
+        <span><i class = "fas fa-envelope-open"></i></span>
+        <h3>
+          <span class = "text">mail me</span> <br>
+          jcc.devweb@gmail.com
+        </h3>
+      </div>
+
+      <div class = "contact-info">
+        <span><i class = "fas fa-phone-square-alt"></i></span>
+        <h3>
+          <span class = "text">call me</span> <br>
+          +639 1937 11606
+        </h3>
+      </div>
+
+      <div class = "contact-social-links">
+        <a href = "https://github.com/jccdevweb"><i class="fab fa-github" alt = "git-hub-icon"></i></a>
+        <a href = "https://www.linkedin.com/in/joseph-charles-vargas/" target="_blank"><i class="fab fa-linkedin-in" alt = "linkedin-icon"></i></a>
+      
+      </div>
+    </div>
+
+    <div class = "col-right">
+      <form class = "contact-form">
+        <div class = "form-group">
+          <input type = "text" placeholder="your name">
+          <input type = "email" placeholder="your email">
+          <input type = "text" placeholder="your subject">
+        </div>
+        <textarea rows = "5"></textarea>
+        <button type = "submit" class = "btn">send message</button>
+      </form>
+    </div>
+  </div>
+</section>
+<!-- end of contact page -->
+
+
 
     <!-- footer -->
     <footer class = "footer container">
@@ -97,10 +474,7 @@
             I am creative and highly motivated Full Stack Web Developer / Server Administrator seeking a position that will utilize my experience and skills as well as offer me the opportunity for advancement
           </p>
           </div>
-          <div class = "social-links">
-            <a href = "https://github.com/jccdevweb"><i class="fab fa-github" alt = "git-hub-icon"></i></a>
-            <a href = "https://www.linkedin.com/in/joseph-charles-vargas/" target="_blank"><i class="fab fa-linkedin-in" alt = "linkedin-icon"></i></a>
-          </div>
+
         </div>
 
       <div class = "row-right">
@@ -125,6 +499,10 @@
               <i class = "fas fa-envelope"></i>
             </span>
             <span class = "text">jcc.devweb@gmail.com</span>
+          </div>
+          <div class = "social-links">
+            <a href = "https://github.com/jccdevweb"><i class="fab fa-github" alt = "git-hub-icon"></i></a>
+            <a href = "https://www.linkedin.com/in/joseph-charles-vargas/" target="_blank"><i class="fab fa-linkedin-in" alt = "linkedin-icon"></i></a>
           </div>
         </div>
         </div>
